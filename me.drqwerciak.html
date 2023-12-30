@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicons/img-1.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="stylesheet" href="css/css-styles.css">
+        <title>DrQwerciak | Topka</title> 
+    </head>
+    <body>
+        <div id="click-prompt" style="position: fixed; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); display: flex; align-items: center; justify-content: center; z-index: 9999;">
+            <h1 id="click" style="color: white; cursor: pointer;">Click anywhere...</h1>
+        </div>
+        <audio id="music" src="muzyka.mp3" preload="auto"></audio>
+
+        <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil"> 
+                            <img src="images/img-qafasfasf-removebg-preview.png">
+                        </div>
+                    </div>
+                    <h2 class="profile__name">DrQwerciak</h2>
+                    <h3 class="profile__profession">Web, UI Developer</h3>
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/drqwerciak" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://discord.gg/CCMGTZ9ych" target="_blank" class="profile__social-link">
+                            <i class="ri-discord-line"></i>
+                        </a>
+                        <a href="https://github.com/DrQwerciaks" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+                <div class="profile__buttons">
+                    <a href="https://cachecuantico.com" target="_blank" class="button">
+                        <span class="button__text">
+                            Main Strona <i class="ri-arrow-right-up-line"></i>
+                        </span>
+                        <img src="images/img-cone.png" alt="" class="button__cone">
+                        <img src="images/img-torus.png" alt="" class="button__torus">
+                        <img src="images/img-icosahedron.png" alt="" class="button__icosahedron">
+                        <img src="images/img-sphere.png" alt="" class="button__sphere">
+                    </a>
+                    <div class="profile__buttons-small">
+                        <a href="https://www.facebook.com/drqwercik/" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                        <a href="https://www.patreon.com/user/membership?u=78195907" target="_blank" class="button button__small button__gray">
+                            <i class="ri-hand-coin-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="filters container">
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#skills">
+                        Do&#347;wiadczenie 
+                    </button>
+                    <button class="filters__button" data-target="#repos">
+                        Repozytoria
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <div class="projects__content grid" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="images/img-cache_cuantico.webp" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Main Strona</span>
+                                    <h3 class="projects__title">Qwerciak</h3>
+                                    <a href="https://drqwerciak.pl" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="skills__content grid filters__active" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Super!</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Super!</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Dobrze</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                            <span class="skills__level">Nawet Git</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Tailwind</h3>
+                                            <span class="skills__level">Jest Dobrze</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Edukuje</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Inne technologie</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Nawet Nawet</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">C++</h3>
+                                            <span class="skills__level">Mo&#380;e By&#263;</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Git</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Linux</h3>
+                                            <span class="skills__level">Bardzo Dobrze</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="repos__content grid" data-content id="repos">
+                        <ul class="repos__list"></ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer container">
+            <span class="footer__copy">
+                &copy; DrQwerciak. Wszelkie prawa zastrze&#380;one
+            </span>
+        </footer>
+        <script src="js/js-scrollreveal.min.js"></script>
+        <script src="js/js-main.js"></script>
+        <script>
+            var clickPrompt = document.getElementById("click-prompt");
+            var music = document.getElementById("music");
+    
+            clickPrompt.addEventListener("click", function () {
+                clickPrompt.style.display = "none";
+                music.play();
+            });
+        </script>
+    <script>(function(){var js = "window['__CF$cv$params']={r:'8306f9fa984a7203',t:'MTcwMTcyMzYwMS4zOTgwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8306f9fa984a7203","version":"2023.10.0","r":1,"token":"3741627a56ad4c9784c580411a3dedd8","b":1}' crossorigin="anonymous"></script>
+</body>
+</html>
